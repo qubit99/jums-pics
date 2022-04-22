@@ -6,6 +6,7 @@ app = Flask(__name__)
 def homepage():
     return render_template('index.html')
 
+ayush = "priyam"
 
 @app.route('/picture')
 def picture():
